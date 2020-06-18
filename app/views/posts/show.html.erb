@@ -1,0 +1,13 @@
+
+
+<div class="container-fluid" style="background-color: black;">
+  <div class="mb-5 row justify-content-md-center">
+    <div class="mt-5 col-md-auto">
+      <% if @post.post_picture.attached?%>
+        <%=  image_tag(@post.post_picture, class: "card-img-top img-responsive", style: "width: 90vw") %>
+        <% else %>
+      <img src="<%=@post.image_url%>" class="card-img-top img-responsive" style="width: 70vw" alt="post_pics">
+      <% end %>
+    </div>
+  </div>
+</div>
