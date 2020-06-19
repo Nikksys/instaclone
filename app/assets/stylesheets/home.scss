@@ -1,7 +1,8 @@
 #bckground-home{
   width: 99vw;
   height: 100vh;
-  background-image: url(polaroids.jpg);
+  // background-image: url(polaroids.jpg);
+  background-image: image-url("polaroids.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
